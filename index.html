@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!--========== BOX ICONS ==========-->
+        <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+        <link href="https://kit-pro.fontawesome.com/releases/v5.15.1/css/pro.min.css" rel="stylesheet">
+
+        <!--========== CSS ==========-->
+        <link rel="stylesheet" href="assets/css/styles.css">
+
+        <title>Paradise</title>
+    </head>
+    <body>
+        <!--========== SCROLL TOP ==========-->
+        <a href="#" class="scrolltop" id="scroll-top">
+            <i class='bx bx-up-arrow-alt scrolltop__icon'></i>
+        </a>
+        
+        <!--========== HEADER ==========-->
+        <header class="l-header" id="header">
+            <nav class="nav bd-container">
+                <a href="#" class="nav__logo"><img src="assets/img/p.png"></a>
+
+                <div class="nav__menu" id="nav-menu">
+                    <ul class="nav__list">
+                        <li class="nav__item"><a href="#" class="button">Get early access</a></li>
+                        
+
+                        <li><i class='bx bx-toggle-left change-theme' id="theme-button"></i></li>
+                    </ul>
+                </div>
+
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class='bx bx-grid-alt'></i>
+                </div>
+            </nav>
+        </header>
+
+        <main class="l-main">
+            <!--========== HOME ==========-->
+            <section class="home" id="home">
+                <div class="home__container bd-container bd-grid">
+                    <div class="home__img">
+                        <img src="assets/img/custmor.png" alt="">
+                    </div>
+
+                    <div class="home__data">
+                        <h1 class="home__title">Say Welcome to the Royalty Lifestyle</h1>
+                        <ul><li>Professionally-cooked meals: delivered fresh. ✔️</li> <li>Laundry: picked up and delivered. ✔️</li> <li>Home cleaning: Dome by professional cleaners. ✔️</li></ul>
+                        <a href="#" class="button">Get Started</a>
+                    </div>   
+                </div>
+            </section>
+
+            <!--========== coming soon ==========-->
+            <section id="about" class="section-b">
+                <div class="overlay">
+                  <div class="section-b-inner py-5">
+                    <h3 class="text-2">Website is Coming</h3>
+                    <h2 class="text-5 mt-1">Coming Soon</h2>
+                    <hr>
+                    <p id="launch"></p>
+                  </div>
+                </div>
+              </section>
+
+            <!--========== Services ==========-->
+            <section class="Services section bd-container" id="Services">
+                <h2 class="section-title">Services <br> For Your Home</h2>
+                <div class="services__container bd-grid">
+                    <div class="services__data">
+                        <img src="assets/img/food (2).png" alt="" class="services__img">
+                        <h3 class="services__title">Food</h3>
+                        <h4 class="services__title">Chef-cooked meals you'll enjoy. Delivered fresh and on schedule.</h4>
+                    </div>
+
+                    <div class="services__data">
+                        <img src="assets/img/laundry.png" alt="" class="services__img">
+                        <h3 class="services__title">Laundry</h3>
+                        <h4 class="services__title">Fresh laundry, carefully executed in 48 hours or less.</h4>
+                    </div>
+
+                    <div class="services__data">
+                        <img src="assets/img/home.png" alt="" class="services__img">
+                        <h3 class="services__title">Home Cleaning</h3>
+                        <h4 class="services__title">Professional home cleaning you can trust.</h4>
+                    </div>
+                </div>
+            </section>
+
+            <!--========== Download ==========-->
+            <section class="send section">
+                <div class="send__container bd-container bd-grid">
+                    <div class="send__content">
+                        <h2 class="section-title-center send__title">Download the app!</h2>
+                        <p class="send__description">It takes less than 5 minutes to sign up!.</p>
+                    </div>
+
+                    <div class="send__img">
+                        <img src="assets/img/app.png" alt="">
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <!--========== FOOTER ==========-->
+        <footer>
+            <div class="row">
+              <div class="col">
+                <img src="assets/img/p.png" class="logo">
+                <p>Making Life More Fun</p>
+
+              </div>
+            <div class="col">
+              <h3>Company</h3>
+              <ul>
+                <li><a href="">About us</a></li>
+                <li><a href="">Companies</a></li>
+                <li><a href="">Contacts</a></li>
+                <li><a href="">Pricing</a></li>
+              </ul>
+            </div>
+            <div class="col">
+              <h3>Services</h3>
+              <ul>
+                <li><a href="">Food</a></li>
+                <li><a href="">Home Cleaning</a></li>
+                <li><a href="">Laundry</a></li>
+                <li><a href="">Other</a></li>
+              </ul>
+            </div>
+            <div class="col">
+              <h3>Newsletter</h3>
+              <form>
+                <i class="far fa-envelope"></i>
+                <input type="email" placeholder="Enter Your Email id" required>
+                <button type="submit"><i class="far fa-arrow-right"></i></button>
+              </form>
+              <div class="social-icons">
+                <i class="fab fa-facebook-f"></i>
+                <i class="fab fa-instagram"></i>
+                <i class="fab fa-twitter"></i>
+              </div>
+            </div>
+
+            </div>
+            <hr>
+            <p class="copyright">2021 Paradise © - All Rights Reserved</p>
+        </footer>
+
+        <!--========== SCROLL REVEAL ==========-->
+        <script src="https://unpkg.com/scrollreveal"></script>
+
+        <!--========== MAIN JS ==========-->
+        <script src="assets/js/main.js"></script>
+    </body>
+    <script>
+    
+        var countDownDate = new Date ("January 1, 2022 00:00:00").getTime();
+
+        var x = setInterval(function() {
+
+        var now = new Date ().getTime();
+
+        var distance = countDownDate - now;
+
+        var days = Math.floor (distance /(1000*60*60*24));
+         var hours = Math.floor ((distance % (1000*60*60*24)) / (1000*60*60));
+          var minutes = Math.floor ((distance % (1000*60*60)) / (1000*60));
+           var seconds = Math.floor ((distance % (1000*60)) / 1000);
+
+document.getElementById("launch").innerHTML=days + "d " + hours + "h " + minutes + "m " + seconds + "s";
+    
+    if (distance < 0) {
+    clearInterval(x);
+    document.getElementById('launch').innerHTML="EXPIRED";
+    }
+            
+}, 1000);
+    
+    </script>
+</html>
